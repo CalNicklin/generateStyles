@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^0.11.5",
+    "style-dictionary": "^3.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "typescript": "^5.2.2"
+  },
+  "type": "module"
+}
