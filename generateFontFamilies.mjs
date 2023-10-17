@@ -1,14 +1,21 @@
-export default generateFontFamiliesFromFontWeights = (fontWeights, fontFamilies) => {
-  for (const key in fontWeights) {
-    if (fontWeights.hasOwnProperty(key)) {
-      const fontWeight = fontWeights[key];
+import fs from "fs";
+export const generateFontFamilies = (styles) => {
+  const { fontWeights, fontFamilies } = styles;
 
-      if (!fontFamilies.hasOwnProperty(fontWeight)) {
-        fontFamilies[fontWeight] = `${fontFamilies[0]}${fontWeight}`;
+  for (const i in fontFamilies) {
+    for (const key in fontWeights) {
+      if (fontWeights.hasOwnProperty(key)) {
+        const fontWeight = fontWeights[key];
+
+        if (!fontFamilies[i].hasOwnProperty(fontWeight)) {
+          fontFamilies[fontWeight] = `${fontFamilies[i]}${fontWeight}`;
+        }
       }
     }
   }
-  return fontFamilies
-}
-
-generateFontFamiliesFromFontWeights(fontWeights, fontFamilies);
+  // Write to file
+  fs.appendFileSync(
+    "./StyleSheet.js",
+    `\nexport const fontFamilies = ${JSON.stringify(fontFamilies, null, 2)}`
+  );
+};
