@@ -1,5 +1,5 @@
-const StyleDictionary = require('style-dictionary');
-const { registerTransforms } = require('@tokens-studio/sd-transforms');
+import StyleDictionary from "style-dictionary";
+import { registerTransforms } from '@tokens-studio/sd-transforms';
 
 // sd-transforms, 2nd parameter for options can be added
 // See docs: https://github.com/tokens-studio/sd-transforms
@@ -37,7 +37,7 @@ const sd = StyleDictionary.extend({
       transformGroup: 'react-native',
       files: [
         {
-          destination: 'output.js',
+          destination: 'output.json',
           format: 'json/nested',
         },
       ],

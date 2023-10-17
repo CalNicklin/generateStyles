@@ -1,5 +1,5 @@
 import fs from "fs";
-export const generateFontFamilies = (styles) => {
+export const generateFontFamilies = async (styles) => {
   const { fontWeights, fontFamilies } = styles;
 
   for (const i in fontFamilies) {
@@ -15,7 +15,8 @@ export const generateFontFamilies = (styles) => {
   }
   // Write to file
   fs.appendFileSync(
-    "./StyleSheet.js",
-    `\nexport const fontFamilies = ${JSON.stringify(fontFamilies, null, 2)}`
+    "./StyleSheet.ts",
+    `\nexport const fontFamilies = ${JSON.stringify(fontFamilies, null, 1)}`
   );
+  return fontFamilies;
 };

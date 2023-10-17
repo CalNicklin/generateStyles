@@ -1,5 +1,5 @@
 import fs from "fs";
-export const transformFontStyles = (fontStyles) => {
+export const generateTextStyles = async (fontStyles, fontFamilies) => {
   const transformedStyles = {};
 
   for (const key in fontStyles) {
@@ -12,10 +12,18 @@ export const transformFontStyles = (fontStyles) => {
       for (const subKey in fontStyles[key]) {
         if (fontStyles[key].hasOwnProperty(subKey)) {
           const style = fontStyles[key][subKey];
-          const fontFamily = style.fontFamily; 
+          const fontFamily = style.fontFamily;
           const fontWeight = style.fontWeight;
-          // Map the original fontFamily and fontWeight to React Native compatible font family
-          const fontFamilyRN = `${fontFamily}${fontWeight}`;
+
+          let matchedFontFamily;
+          for (const key in fontFamilies) {
+            if (
+              fontFamilies.hasOwnProperty(key) &&
+              fontFamilies[key] === `${fontFamily}${fontWeight}`
+            ) {
+              matchedFontFamily = `${fontFamilies[key]}`;
+            }
+          }
 
           // Perform other transformations as needed
           const fontSize = parseFloat(style.fontSize);
@@ -26,7 +34,7 @@ export const transformFontStyles = (fontStyles) => {
           const color = "#FFFFFF"; // You can replace this with your color definition
 
           transformedStyles[subKey] = {
-            fontFamily: fontFamilyRN,
+            fontFamily: matchedFontFamily,
             fontSize,
             lineHeight,
             paddingTop,
@@ -39,7 +47,13 @@ export const transformFontStyles = (fontStyles) => {
 
   // Write to file
   fs.appendFileSync(
-    "./StyleSheet.js",
-    `\nexport const textStyles = ${JSON.stringify(transformedStyles, null, 2)}`
+    "./StyleSheet.ts",
+    `\n\ntype TextStyles = {
+      [key: string]: TextStyle
+    }\n\nexport const textStyles = ${JSON.stringify(
+      transformedStyles,
+      null,
+      1
+    ).replace(/"([^"]+)":/g, '$1:')}`
   );
 };
