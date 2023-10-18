@@ -4,7 +4,7 @@ export const generateColors = (styles) => {
   for (const key in styles) {
     if (key === "ColorRamp") {
       const colorRamp = styles[key];
-      const transformedColors = {};
+      let transformedColors = {};
 
       for (const subKey in colorRamp) {
         if (colorRamp.hasOwnProperty(subKey)) {
@@ -12,14 +12,30 @@ export const generateColors = (styles) => {
         }
       }
 
-      const trimmedColors = Object.fromEntries(
-        Object.entries(transformedColors).map(([key, value]) => [key.replace(/\s/g, ''), value])
-      )
+      for (const key in transformedColors) {
+        transformedColors[key] = Object.fromEntries(
+          Object.entries(transformedColors[key]).map(([key, value]) => [
+            key.replace(/\s/g, ""),
+            value,
+          ])
+        );
+      }
+
+      transformedColors = Object.fromEntries(
+        Object.entries(transformedColors).map(([key, value]) => [
+          key.replace(/\s/g, ""),
+          value,
+        ])
+      );
 
       // Write to file
       fs.appendFileSync(
         "./StyleSheet.ts",
-        `\n\nexport const colors = ${JSON.stringify(trimmedColors, null, 1).replace(/"([^"]+)":/g, '$1:')}`
+        `\n\nexport const colors = ${JSON.stringify(
+          transformedColors,
+          null,
+          1
+        ).replace(/"([^"]+)":/g, "$1:")}`
       );
     }
   }

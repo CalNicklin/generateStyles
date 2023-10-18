@@ -21,16 +21,18 @@ export const generateTextStyles = async (fontStyles, fontFamilies) => {
               fontFamilies.hasOwnProperty(key) &&
               fontFamilies[key] === `${fontFamily}${fontWeight}`
             ) {
-              matchedFontFamily = `${fontFamilies[key]}`;
+              matchedFontFamily = `fontFamilies.${key}`;
             }
           }
 
           // Perform other transformations as needed
           const fontSize = parseFloat(style.fontSize);
-          const lineHeight = `${fontSize} * 0.${parseFloat(style.lineHeight)}`;
+          const lineHeight = `${fontSize} * ${
+            parseFloat(style.lineHeight) / 100
+          }`;
           const paddingTop = `${fontSize} - ${fontSize} * 0.${parseFloat(
             style.lineHeight
-          )}`;
+          ).toFixed(0)}`;
           const color = "#FFFFFF"; // You can replace this with your color definition
 
           transformedStyles[subKey] = {
@@ -54,6 +56,15 @@ export const generateTextStyles = async (fontStyles, fontFamilies) => {
       transformedStyles,
       null,
       1
-    ).replace(/"([^"]+)":/g, '$1:')}`
+    ).replace(
+      /"([^"]+)"\s*:\s*"([^"]+)"|("([^"]+)")\s*:\s*([^",\s]+)/g,
+      function (match, key1, value1, key2, key3, value3) {
+        if (key1) {
+          return key1 + ": " + value1;
+        } else {
+          return key3 + ": " + value3;
+        }
+      }
+    )}`
   );
 };

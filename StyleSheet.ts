@@ -38,740 +38,740 @@ type TextStyles = {
 
 export const textStyles = {
  B14: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 128,
-  lineHeight: "128 * 0.94",
-  paddingTop: "128 - 128 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 128 * 0.94,
+  paddingTop: 128 - 128 * 0.94,
+  color: #FFFFFF
  },
  B13: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 96,
-  lineHeight: "96 * 0.94",
-  paddingTop: "96 - 96 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 96 * 0.94,
+  paddingTop: 96 - 96 * 0.94,
+  color: #FFFFFF
  },
  B125: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 94,
-  lineHeight: "94 * 0.94",
-  paddingTop: "94 - 94 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 94 * 0.94,
+  paddingTop: 94 - 94 * 0.94,
+  color: #FFFFFF
  },
  B12: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 72,
-  lineHeight: "72 * 0.94",
-  paddingTop: "72 - 72 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 72 * 0.94,
+  paddingTop: 72 - 72 * 0.94,
+  color: #FFFFFF
  },
  B11: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 60,
-  lineHeight: "60 * 0.94",
-  paddingTop: "60 - 60 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 60 * 0.94,
+  paddingTop: 60 - 60 * 0.94,
+  color: #FFFFFF
  },
  B115: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 64,
-  lineHeight: "64 * 0.94",
-  paddingTop: "64 - 64 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 64 * 0.94,
+  paddingTop: 64 - 64 * 0.94,
+  color: #FFFFFF
  },
  B105: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 56,
-  lineHeight: "56 * 0.94",
-  paddingTop: "56 - 56 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 56 * 0.94,
+  paddingTop: 56 - 56 * 0.94,
+  color: #FFFFFF
  },
  B10: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 48,
-  lineHeight: "48 * 0.94",
-  paddingTop: "48 - 48 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 48 * 0.94,
+  paddingTop: 48 - 48 * 0.94,
+  color: #FFFFFF
  },
  B9: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 44,
-  lineHeight: "44 * 0.94",
-  paddingTop: "44 - 44 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 44 * 0.94,
+  paddingTop: 44 - 44 * 0.94,
+  color: #FFFFFF
  },
  B8: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 42,
-  lineHeight: "42 * 0.110",
-  paddingTop: "42 - 42 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 42 * 1.1,
+  paddingTop: 42 - 42 * 0.110,
+  color: #FFFFFF
  },
  B7: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 40,
-  lineHeight: "40 * 0.110",
-  paddingTop: "40 - 40 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 40 * 1.1,
+  paddingTop: 40 - 40 * 0.110,
+  color: #FFFFFF
  },
  B6: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 38,
-  lineHeight: "38 * 0.110",
-  paddingTop: "38 - 38 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 38 * 1.1,
+  paddingTop: 38 - 38 * 0.110,
+  color: #FFFFFF
  },
  B5: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 36,
-  lineHeight: "36 * 0.110",
-  paddingTop: "36 - 36 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 36 * 1.1,
+  paddingTop: 36 - 36 * 0.110,
+  color: #FFFFFF
  },
  B4: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 34,
-  lineHeight: "34 * 0.110",
-  paddingTop: "34 - 34 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 34 * 1.1,
+  paddingTop: 34 - 34 * 0.110,
+  color: #FFFFFF
  },
  B3: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 32,
-  lineHeight: "32 * 0.110",
-  paddingTop: "32 - 32 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 32 * 1.1,
+  paddingTop: 32 - 32 * 0.110,
+  color: #FFFFFF
  },
  B2: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 30,
-  lineHeight: "30 * 0.110",
-  paddingTop: "30 - 30 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 30 * 1.1,
+  paddingTop: 30 - 30 * 0.110,
+  color: #FFFFFF
  },
  B1: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 28,
-  lineHeight: "28 * 0.110",
-  paddingTop: "28 - 28 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 28 * 1.1,
+  paddingTop: 28 - 28 * 0.110,
+  color: #FFFFFF
  },
  BS: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 26,
-  lineHeight: "26 * 0.110",
-  paddingTop: "26 - 26 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 26 * 1.1,
+  paddingTop: 26 - 26 * 0.110,
+  color: #FFFFFF
  },
  BXS: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 24,
-  lineHeight: "24 * 0.110",
-  paddingTop: "24 - 24 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 24 * 1.1,
+  paddingTop: 24 - 24 * 0.110,
+  color: #FFFFFF
  },
  BXS1: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 22,
-  lineHeight: "22 * 0.110",
-  paddingTop: "22 - 22 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 22 * 1.1,
+  paddingTop: 22 - 22 * 0.110,
+  color: #FFFFFF
  },
  BXS2: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 20,
-  lineHeight: "20 * 0.110",
-  paddingTop: "20 - 20 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 20 * 1.1,
+  paddingTop: 20 - 20 * 0.110,
+  color: #FFFFFF
  },
  BXS3: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 18,
-  lineHeight: "18 * 0.110",
-  paddingTop: "18 - 18 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 18 * 1.1,
+  paddingTop: 18 - 18 * 0.110,
+  color: #FFFFFF
  },
  BXS4: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 16,
-  lineHeight: "16 * 0.110",
-  paddingTop: "16 - 16 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 16 * 1.1,
+  paddingTop: 16 - 16 * 0.110,
+  color: #FFFFFF
  },
  BXS5: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 14,
-  lineHeight: "14 * 0.110",
-  paddingTop: "14 - 14 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 14 * 1.1,
+  paddingTop: 14 - 14 * 0.110,
+  color: #FFFFFF
  },
  BXS6: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 12,
-  lineHeight: "12 * 0.110",
-  paddingTop: "12 - 12 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 12 * 1.1,
+  paddingTop: 12 - 12 * 0.110,
+  color: #FFFFFF
  },
  BXS7: {
-  fontFamily: "PoppinsBold",
+  fontFamily: fontFamilies.Bold,
   fontSize: 10,
-  lineHeight: "10 * 0.110",
-  paddingTop: "10 - 10 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 10 * 1.1,
+  paddingTop: 10 - 10 * 0.110,
+  color: #FFFFFF
  },
  D14: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 128,
-  lineHeight: "128 * 0.94",
-  paddingTop: "128 - 128 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 128 * 0.94,
+  paddingTop: 128 - 128 * 0.94,
+  color: #FFFFFF
  },
  D125: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 94,
-  lineHeight: "94 * 0.94",
-  paddingTop: "94 - 94 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 94 * 0.94,
+  paddingTop: 94 - 94 * 0.94,
+  color: #FFFFFF
  },
  D12: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 72,
-  lineHeight: "72 * 0.94",
-  paddingTop: "72 - 72 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 72 * 0.94,
+  paddingTop: 72 - 72 * 0.94,
+  color: #FFFFFF
  },
  D115: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 62,
-  lineHeight: "62 * 0.94",
-  paddingTop: "62 - 62 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 62 * 0.94,
+  paddingTop: 62 - 62 * 0.94,
+  color: #FFFFFF
  },
  D11: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 56,
-  lineHeight: "56 * 0.94",
-  paddingTop: "56 - 56 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 56 * 0.94,
+  paddingTop: 56 - 56 * 0.94,
+  color: #FFFFFF
  },
  D10: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 48,
-  lineHeight: "48 * 0.94",
-  paddingTop: "48 - 48 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 48 * 0.94,
+  paddingTop: 48 - 48 * 0.94,
+  color: #FFFFFF
  },
  D9: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 44,
-  lineHeight: "44 * 0.94",
-  paddingTop: "44 - 44 * 0.94",
-  color: "#FFFFFF"
+  lineHeight: 44 * 0.94,
+  paddingTop: 44 - 44 * 0.94,
+  color: #FFFFFF
  },
  D8: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 42,
-  lineHeight: "42 * 0.110",
-  paddingTop: "42 - 42 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 42 * 1.1,
+  paddingTop: 42 - 42 * 0.110,
+  color: #FFFFFF
  },
  D7: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 40,
-  lineHeight: "40 * 0.110",
-  paddingTop: "40 - 40 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 40 * 1.1,
+  paddingTop: 40 - 40 * 0.110,
+  color: #FFFFFF
  },
  D6: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 38,
-  lineHeight: "38 * 0.110",
-  paddingTop: "38 - 38 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 38 * 1.1,
+  paddingTop: 38 - 38 * 0.110,
+  color: #FFFFFF
  },
  D5: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 36,
-  lineHeight: "36 * 0.110",
-  paddingTop: "36 - 36 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 36 * 1.1,
+  paddingTop: 36 - 36 * 0.110,
+  color: #FFFFFF
  },
  D4: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 34,
-  lineHeight: "34 * 0.110",
-  paddingTop: "34 - 34 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 34 * 1.1,
+  paddingTop: 34 - 34 * 0.110,
+  color: #FFFFFF
  },
  D3: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 32,
-  lineHeight: "32 * 0.110",
-  paddingTop: "32 - 32 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 32 * 1.1,
+  paddingTop: 32 - 32 * 0.110,
+  color: #FFFFFF
  },
  D2: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 30,
-  lineHeight: "30 * 0.110",
-  paddingTop: "30 - 30 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 30 * 1.1,
+  paddingTop: 30 - 30 * 0.110,
+  color: #FFFFFF
  },
  D1: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 28,
-  lineHeight: "28 * 0.93",
-  paddingTop: "28 - 28 * 0.93",
-  color: "#FFFFFF"
+  lineHeight: 28 * 0.93,
+  paddingTop: 28 - 28 * 0.93,
+  color: #FFFFFF
  },
  DS: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 26,
-  lineHeight: "26 * 0.97",
-  paddingTop: "26 - 26 * 0.97",
-  color: "#FFFFFF"
+  lineHeight: 26 * 0.97,
+  paddingTop: 26 - 26 * 0.97,
+  color: #FFFFFF
  },
  DXS: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 24,
-  lineHeight: "24 * 0.98.5",
-  paddingTop: "24 - 24 * 0.98.5",
-  color: "#FFFFFF"
+  lineHeight: 24 * 0.985,
+  paddingTop: 24 - 24 * 0.99,
+  color: #FFFFFF
  },
  DXS1: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 22,
-  lineHeight: "22 * 0.98.5",
-  paddingTop: "22 - 22 * 0.98.5",
-  color: "#FFFFFF"
+  lineHeight: 22 * 0.985,
+  paddingTop: 22 - 22 * 0.99,
+  color: #FFFFFF
  },
  DXS2: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 20,
-  lineHeight: "20 * 0.110",
-  paddingTop: "20 - 20 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 20 * 1.1,
+  paddingTop: 20 - 20 * 0.110,
+  color: #FFFFFF
  },
  DXS3: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 18,
-  lineHeight: "18 * 0.100",
-  paddingTop: "18 - 18 * 0.100",
-  color: "#FFFFFF"
+  lineHeight: 18 * 1,
+  paddingTop: 18 - 18 * 0.100,
+  color: #FFFFFF
  },
  DXS5: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 14,
-  lineHeight: "14 * 0.110",
-  paddingTop: "14 - 14 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 14 * 1.1,
+  paddingTop: 14 - 14 * 0.110,
+  color: #FFFFFF
  },
  DXS4: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 16,
-  lineHeight: "16 * 0.110",
-  paddingTop: "16 - 16 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 16 * 1.1,
+  paddingTop: 16 - 16 * 0.110,
+  color: #FFFFFF
  },
  DXS6: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 12,
-  lineHeight: "12 * 0.110",
-  paddingTop: "12 - 12 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 12 * 1.1,
+  paddingTop: 12 - 12 * 0.110,
+  color: #FFFFFF
  },
  DXS7: {
-  fontFamily: "PoppinsSemiBold",
+  fontFamily: fontFamilies.SemiBold,
   fontSize: 10,
-  lineHeight: "10 * 0.110",
-  paddingTop: "10 - 10 * 0.110",
-  color: "#FFFFFF"
+  lineHeight: 10 * 1.1,
+  paddingTop: 10 - 10 * 0.110,
+  color: #FFFFFF
  },
  R14: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 128,
-  lineHeight: "128 * 0.128",
-  paddingTop: "128 - 128 * 0.128",
-  color: "#FFFFFF"
+  lineHeight: 128 * 1.28,
+  paddingTop: 128 - 128 * 0.128,
+  color: #FFFFFF
  },
  R13: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 96,
-  lineHeight: "96 * 0.128",
-  paddingTop: "96 - 96 * 0.128",
-  color: "#FFFFFF"
+  lineHeight: 96 * 1.28,
+  paddingTop: 96 - 96 * 0.128,
+  color: #FFFFFF
  },
  R125: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 85,
-  lineHeight: "85 * 0.128",
-  paddingTop: "85 - 85 * 0.128",
-  color: "#FFFFFF"
+  lineHeight: 85 * 1.28,
+  paddingTop: 85 - 85 * 0.128,
+  color: #FFFFFF
  },
  R12: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 72,
-  lineHeight: "72 * 0.140",
-  paddingTop: "72 - 72 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 72 * 1.4,
+  paddingTop: 72 - 72 * 0.140,
+  color: #FFFFFF
  },
  R11: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 60,
-  lineHeight: "60 * 0.140",
-  paddingTop: "60 - 60 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 60 * 1.4,
+  paddingTop: 60 - 60 * 0.140,
+  color: #FFFFFF
  },
  R10: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 48,
-  lineHeight: "48 * 0.140",
-  paddingTop: "48 - 48 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 48 * 1.4,
+  paddingTop: 48 - 48 * 0.140,
+  color: #FFFFFF
  },
  R9: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 44,
-  lineHeight: "44 * 0.140",
-  paddingTop: "44 - 44 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 44 * 1.4,
+  paddingTop: 44 - 44 * 0.140,
+  color: #FFFFFF
  },
  R8: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 42,
-  lineHeight: "42 * 0.140",
-  paddingTop: "42 - 42 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 42 * 1.4,
+  paddingTop: 42 - 42 * 0.140,
+  color: #FFFFFF
  },
  R7: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 40,
-  lineHeight: "40 * 0.140",
-  paddingTop: "40 - 40 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 40 * 1.4,
+  paddingTop: 40 - 40 * 0.140,
+  color: #FFFFFF
  },
  R6: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 38,
-  lineHeight: "38 * 0.140",
-  paddingTop: "38 - 38 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 38 * 1.4,
+  paddingTop: 38 - 38 * 0.140,
+  color: #FFFFFF
  },
  R5: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 36,
-  lineHeight: "36 * 0.140",
-  paddingTop: "36 - 36 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 36 * 1.4,
+  paddingTop: 36 - 36 * 0.140,
+  color: #FFFFFF
  },
  R4: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 34,
-  lineHeight: "34 * 0.140",
-  paddingTop: "34 - 34 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 34 * 1.4,
+  paddingTop: 34 - 34 * 0.140,
+  color: #FFFFFF
  },
  R3: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 32,
-  lineHeight: "32 * 0.140",
-  paddingTop: "32 - 32 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 32 * 1.4,
+  paddingTop: 32 - 32 * 0.140,
+  color: #FFFFFF
  },
  R2: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 30,
-  lineHeight: "30 * 0.140",
-  paddingTop: "30 - 30 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 30 * 1.4,
+  paddingTop: 30 - 30 * 0.140,
+  color: #FFFFFF
  },
  R1: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 28,
-  lineHeight: "28 * 0.140",
-  paddingTop: "28 - 28 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 28 * 1.4,
+  paddingTop: 28 - 28 * 0.140,
+  color: #FFFFFF
  },
  RS: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 26,
-  lineHeight: "26 * 0.140",
-  paddingTop: "26 - 26 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 26 * 1.4,
+  paddingTop: 26 - 26 * 0.140,
+  color: #FFFFFF
  },
  RXS: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 24,
-  lineHeight: "24 * 0.140",
-  paddingTop: "24 - 24 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 24 * 1.4,
+  paddingTop: 24 - 24 * 0.140,
+  color: #FFFFFF
  },
  RXS1: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 22,
-  lineHeight: "22 * 0.140",
-  paddingTop: "22 - 22 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 22 * 1.4,
+  paddingTop: 22 - 22 * 0.140,
+  color: #FFFFFF
  },
  RXS2: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 20,
-  lineHeight: "20 * 0.104.5",
-  paddingTop: "20 - 20 * 0.104.5",
-  color: "#FFFFFF"
+  lineHeight: 20 * 1.045,
+  paddingTop: 20 - 20 * 0.105,
+  color: #FFFFFF
  },
  RXS3: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 18,
-  lineHeight: "18 * 0.130",
-  paddingTop: "18 - 18 * 0.130",
-  color: "#FFFFFF"
+  lineHeight: 18 * 1.3,
+  paddingTop: 18 - 18 * 0.130,
+  color: #FFFFFF
  },
  RXS4: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 16,
-  lineHeight: "16 * 0.98.5",
-  paddingTop: "16 - 16 * 0.98.5",
-  color: "#FFFFFF"
+  lineHeight: 16 * 0.985,
+  paddingTop: 16 - 16 * 0.99,
+  color: #FFFFFF
  },
  RXS5: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 14,
-  lineHeight: "14 * 0.130",
-  paddingTop: "14 - 14 * 0.130",
-  color: "#FFFFFF"
+  lineHeight: 14 * 1.3,
+  paddingTop: 14 - 14 * 0.130,
+  color: #FFFFFF
  },
  RXS6: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 12,
-  lineHeight: "12 * 0.130",
-  paddingTop: "12 - 12 * 0.130",
-  color: "#FFFFFF"
+  lineHeight: 12 * 1.3,
+  paddingTop: 12 - 12 * 0.130,
+  color: #FFFFFF
  },
  RXS7: {
-  fontFamily: "PoppinsRegular",
+  fontFamily: fontFamilies.Regular,
   fontSize: 10,
-  lineHeight: "10 * 0.130",
-  paddingTop: "10 - 10 * 0.130",
-  color: "#FFFFFF"
+  lineHeight: 10 * 1.3,
+  paddingTop: 10 - 10 * 0.130,
+  color: #FFFFFF
  },
  L14: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 128,
-  lineHeight: "128 * 0.128",
-  paddingTop: "128 - 128 * 0.128",
-  color: "#FFFFFF"
+  lineHeight: 128 * 1.28,
+  paddingTop: 128 - 128 * 0.128,
+  color: #FFFFFF
  },
  L13: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 96,
-  lineHeight: "96 * 0.128",
-  paddingTop: "96 - 96 * 0.128",
-  color: "#FFFFFF"
+  lineHeight: 96 * 1.28,
+  paddingTop: 96 - 96 * 0.128,
+  color: #FFFFFF
  },
  L125: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 85,
-  lineHeight: "85 * 0.82.5",
-  paddingTop: "85 - 85 * 0.82.5",
-  color: "#FFFFFF"
+  lineHeight: 85 * 0.825,
+  paddingTop: 85 - 85 * 0.83,
+  color: #FFFFFF
  },
  L12: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 72,
-  lineHeight: "72 * 0.140",
-  paddingTop: "72 - 72 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 72 * 1.4,
+  paddingTop: 72 - 72 * 0.140,
+  color: #FFFFFF
  },
  L11: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 60,
-  lineHeight: "60 * 0.140",
-  paddingTop: "60 - 60 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 60 * 1.4,
+  paddingTop: 60 - 60 * 0.140,
+  color: #FFFFFF
  },
  L10: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 48,
-  lineHeight: "48 * 0.140",
-  paddingTop: "48 - 48 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 48 * 1.4,
+  paddingTop: 48 - 48 * 0.140,
+  color: #FFFFFF
  },
  L9: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 44,
-  lineHeight: "44 * 0.140",
-  paddingTop: "44 - 44 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 44 * 1.4,
+  paddingTop: 44 - 44 * 0.140,
+  color: #FFFFFF
  },
  L8: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 42,
-  lineHeight: "42 * 0.140",
-  paddingTop: "42 - 42 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 42 * 1.4,
+  paddingTop: 42 - 42 * 0.140,
+  color: #FFFFFF
  },
  L7: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 40,
-  lineHeight: "40 * 0.140",
-  paddingTop: "40 - 40 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 40 * 1.4,
+  paddingTop: 40 - 40 * 0.140,
+  color: #FFFFFF
  },
  L6: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 38,
-  lineHeight: "38 * 0.140",
-  paddingTop: "38 - 38 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 38 * 1.4,
+  paddingTop: 38 - 38 * 0.140,
+  color: #FFFFFF
  },
  L5: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 36,
-  lineHeight: "36 * 0.140",
-  paddingTop: "36 - 36 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 36 * 1.4,
+  paddingTop: 36 - 36 * 0.140,
+  color: #FFFFFF
  },
  L4: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 34,
-  lineHeight: "34 * 0.140",
-  paddingTop: "34 - 34 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 34 * 1.4,
+  paddingTop: 34 - 34 * 0.140,
+  color: #FFFFFF
  },
  L3: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 32,
-  lineHeight: "32 * 0.140",
-  paddingTop: "32 - 32 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 32 * 1.4,
+  paddingTop: 32 - 32 * 0.140,
+  color: #FFFFFF
  },
  L2: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 30,
-  lineHeight: "30 * 0.140",
-  paddingTop: "30 - 30 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 30 * 1.4,
+  paddingTop: 30 - 30 * 0.140,
+  color: #FFFFFF
  },
  L1: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 28,
-  lineHeight: "28 * 0.140",
-  paddingTop: "28 - 28 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 28 * 1.4,
+  paddingTop: 28 - 28 * 0.140,
+  color: #FFFFFF
  },
  LS: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 26,
-  lineHeight: "26 * 0.140",
-  paddingTop: "26 - 26 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 26 * 1.4,
+  paddingTop: 26 - 26 * 0.140,
+  color: #FFFFFF
  },
  LXS: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 24,
-  lineHeight: "24 * 0.140",
-  paddingTop: "24 - 24 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 24 * 1.4,
+  paddingTop: 24 - 24 * 0.140,
+  color: #FFFFFF
  },
  LXS1: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 22,
-  lineHeight: "22 * 0.140",
-  paddingTop: "22 - 22 * 0.140",
-  color: "#FFFFFF"
+  lineHeight: 22 * 1.4,
+  paddingTop: 22 - 22 * 0.140,
+  color: #FFFFFF
  },
  LXS2: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 20,
-  lineHeight: "20 * 0.115.5",
-  paddingTop: "20 - 20 * 0.115.5",
-  color: "#FFFFFF"
+  lineHeight: 20 * 1.155,
+  paddingTop: 20 - 20 * 0.116,
+  color: #FFFFFF
  },
  LXS3: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 18,
-  lineHeight: "18 * 0.130",
-  paddingTop: "18 - 18 * 0.130",
-  color: "#FFFFFF"
+  lineHeight: 18 * 1.3,
+  paddingTop: 18 - 18 * 0.130,
+  color: #FFFFFF
  },
  LXS4: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 16,
-  lineHeight: "16 * 0.130",
-  paddingTop: "16 - 16 * 0.130",
-  color: "#FFFFFF"
+  lineHeight: 16 * 1.3,
+  paddingTop: 16 - 16 * 0.130,
+  color: #FFFFFF
  },
  LXS5: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 14,
-  lineHeight: "14 * 0.130",
-  paddingTop: "14 - 14 * 0.130",
-  color: "#FFFFFF"
+  lineHeight: 14 * 1.3,
+  paddingTop: 14 - 14 * 0.130,
+  color: #FFFFFF
  },
  LXS6: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 12,
-  lineHeight: "12 * 0.130",
-  paddingTop: "12 - 12 * 0.130",
-  color: "#FFFFFF"
+  lineHeight: 12 * 1.3,
+  paddingTop: 12 - 12 * 0.130,
+  color: #FFFFFF
  },
  LXS7: {
-  fontFamily: "PoppinsExtraLight",
+  fontFamily: fontFamilies.ExtraLight,
   fontSize: 10,
-  lineHeight: "10 * 0.130",
-  paddingTop: "10 - 10 * 0.130",
-  color: "#FFFFFF"
+  lineHeight: 10 * 1.3,
+  paddingTop: 10 - 10 * 0.130,
+  color: #FFFFFF
  }
 }
 
 export const colors = {
  ASGreys: {
-  AS Greys 100: "#e1e1e1",
-  AS Greys 200: "#b2b2b2",
-  AS Greys 300: "#a1a1a1",
-  AS Greys 400: "#939393",
-  AS Greys 500: "#848484",
-  AS Greys 600: "#686868",
-  AS Greys 700: "#555555",
-  AS Greys 800: "#454545",
-  AS Greys 900: "#383838",
-  AS Greys 1000: "#1c1c1c"
+  ASGreys100: "#e1e1e1",
+  ASGreys200: "#b2b2b2",
+  ASGreys300: "#a1a1a1",
+  ASGreys400: "#939393",
+  ASGreys500: "#848484",
+  ASGreys600: "#686868",
+  ASGreys700: "#555555",
+  ASGreys800: "#454545",
+  ASGreys900: "#383838",
+  ASGreys1000: "#1c1c1c"
  },
  SallyRed: {
-  Sally Red 100: "#ffd8e0",
-  Sally Red 200: "#ff92a7",
-  Sally Red 300: "#ff738e",
-  Sally Red 400: "#ff5677",
-  Sally Red 500: "#ff254f",
-  Sally Red 600: "#d10029",
-  Sally Red 700: "#ae0022",
-  Sally Red 800: "#8e001c",
-  Sally Red 900: "#770017",
-  Sally Red 1000: "#42000d"
+  SallyRed100: "#ffd8e0",
+  SallyRed200: "#ff92a7",
+  SallyRed300: "#ff738e",
+  SallyRed400: "#ff5677",
+  SallyRed500: "#ff254f",
+  SallyRed600: "#d10029",
+  SallyRed700: "#ae0022",
+  SallyRed800: "#8e001c",
+  SallyRed900: "#770017",
+  SallyRed1000: "#42000d"
  },
  OYAOlive: {
-  OYA Olive 100: "#e1e3dd",
-  OYA Olive 200: "#b0b4a5",
-  OYA Olive 300: "#9ea391",
-  OYA Olive 400: "#919681",
-  OYA Olive 500: "#818770",
-  OYA Olive 600: "#656a58",
-  OYA Olive 700: "#535748",
-  OYA Olive 800: "#42453a",
-  OYA Olive 900: "#373930",
-  OYA Olive 1000: "#1c1d18"
+  OYAOlive100: "#e1e3dd",
+  OYAOlive200: "#b0b4a5",
+  OYAOlive300: "#9ea391",
+  OYAOlive400: "#919681",
+  OYAOlive500: "#818770",
+  OYAOlive600: "#656a58",
+  OYAOlive700: "#535748",
+  OYAOlive800: "#42453a",
+  OYAOlive900: "#373930",
+  OYAOlive1000: "#1c1d18"
  },
  OYAEarth: {
-  OYA Earth 100: "#efdfd8",
-  OYA Earth 200: "#d3aa95",
-  OYA Earth 300: "#c8967c",
-  OYA Earth 400: "#c08669",
-  OYA Earth 500: "#b77452",
-  OYA Earth 600: "#925a3d",
-  OYA Earth 700: "#784a32",
-  OYA Earth 800: "#603b28",
-  OYA Earth 900: "#4f3121",
-  OYA Earth 1000: "#281911"
+  OYAEarth100: "#efdfd8",
+  OYAEarth200: "#d3aa95",
+  OYAEarth300: "#c8967c",
+  OYAEarth400: "#c08669",
+  OYAEarth500: "#b77452",
+  OYAEarth600: "#925a3d",
+  OYAEarth700: "#784a32",
+  OYAEarth800: "#603b28",
+  OYAEarth900: "#4f3121",
+  OYAEarth1000: "#281911"
  }
 }
