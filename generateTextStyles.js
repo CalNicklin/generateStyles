@@ -33,14 +33,14 @@ export const generateTextStyles = async (fontStyles, fontFamilies) => {
           const paddingTop = `${fontSize} - ${fontSize} * 0.${parseFloat(
             style.lineHeight
           ).toFixed(0)}`;
-          const color = "#FFFFFF"; // You can replace this with your color definition
+          // const color = 'colors.white'; // You can replace this with your color definition
 
           transformedStyles[subKey] = {
             fontFamily: matchedFontFamily,
             fontSize,
             lineHeight,
             paddingTop,
-            color,
+            // color,
           };
         }
       }
@@ -52,7 +52,7 @@ export const generateTextStyles = async (fontStyles, fontFamilies) => {
     "./StyleSheet.ts",
     `\n\ntype TextStyles = {
       [key: string]: TextStyle
-    }\n\nexport const textStyles = ${JSON.stringify(
+    }\n\nexport const textStyles: TextStyles = ${JSON.stringify(
       transformedStyles,
       null,
       1

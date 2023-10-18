@@ -24,7 +24,6 @@ export const spacing = {
   [80]: \`\${scaleWidth(80)}%\` as DimensionValue,
   [180]: \`\${scaleWidth(180)}%\` as DimensionValue,
 }
-
 `;
 
 const filePath = "StyleSheet.ts";
