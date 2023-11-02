@@ -22,6 +22,10 @@ See `style.json` for an example file structure.
 3. From this directory, run `./generateStyles.sh`
 4. `StyleSheet.ts` and `useResponsiveStyles.ts` will be generated in the `/export` dir of this project.
 
+## Notes
+
+The text `lineheight` and `paddingTop` values are a *starting point* and should be tweaked to ideal, because this is dependent on font family.
+
 ## Under the hood
 
 The script will run the following steps:
