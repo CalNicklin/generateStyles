@@ -2,6 +2,10 @@
 
 This bash script will generate a ReactNative-ready StyleSheet and useResponsiveStyles hook file from a raw exported Figma JSON file.
 
+## Requirements
+
+Node >=v16
+
 ## Usage
 
 1. Export your Figma file as JSON ideally using the Tokens Studio plugin.
