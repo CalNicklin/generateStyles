@@ -1,4 +1,4 @@
-# generateStyles
+# generateStyles.sh
 
 This bash script will generate a ReactNative-ready StyleSheet and useResponsiveStyles hook file from a raw exported Figma JSON file.
 
