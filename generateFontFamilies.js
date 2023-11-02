@@ -15,7 +15,7 @@ export const generateFontFamilies = async (styles) => {
   }
   // Write to file
   fs.appendFileSync(
-    "./StyleSheet.ts",
+    "./exports/StyleSheet.ts",
     `\nexport const fontFamilies = ${JSON.stringify(fontFamilies, null, 1)}`
   );
   return fontFamilies;

@@ -49,7 +49,7 @@ export const generateTextStyles = async (fontStyles, fontFamilies) => {
 
   // Write to file
   fs.appendFileSync(
-    "./StyleSheet.ts",
+    "./exports/StyleSheet.ts",
     `\n\ntype TextStyles = {
       [key: string]: TextStyle
     }\n\nexport const textStyles: TextStyles = ${JSON.stringify(

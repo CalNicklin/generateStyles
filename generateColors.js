@@ -30,7 +30,7 @@ export const generateColors = (styles) => {
 
       // Write to file
       fs.appendFileSync(
-        "./StyleSheet.ts",
+        "./exports/StyleSheet.ts",
         `\n\nexport const colors = ${JSON.stringify(
           transformedColors,
           null,

@@ -6,7 +6,7 @@ echo "Formatted Figma export into the required JSON format"
 
 # Generate basic stylesheet file with pre-populated funcs
 node createStyleSheet.js
-echo "Created stylesheet file with pre-populated funcs"
+node createResponsiveHook.js
 
 # Populate stylesheet with consts
 node generateStyleSheet.js 

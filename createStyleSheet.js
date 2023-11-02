@@ -26,7 +26,7 @@ export const spacing = {
 }
 `;
 
-const filePath = "StyleSheet.ts";
+const filePath = "./exports/StyleSheet.ts";
 
 // Write the content to the TypeScript file
 fs.writeFileSync(filePath, tsContent, "utf-8");
