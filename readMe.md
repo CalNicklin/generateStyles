@@ -6,6 +6,15 @@ This bash script will generate a ReactNative-ready StyleSheet and useResponsiveS
 
 Node >=v16
 
+Assumes that Figma exported file uses the following keys:
+- "Display"
+- "Bold"
+- "Regular" 
+- "Light"
+- "ColorRamp"
+
+See `style.json` for an example file structure.
+
 ## Usage
 
 1. Export your Figma file as JSON ideally using the Tokens Studio plugin.
