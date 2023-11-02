@@ -1,13 +1,13 @@
 # generateStyles
 
-This bash script will generate a ReactNative-ready StyleSheet.ts file from a raw exported Figma JSON file.
+This bash script will generate a ReactNative-ready StyleSheet and useResponsiveStyles hook file from a raw exported Figma JSON file.
 
 ## Usage
 
 1. Export your Figma file as JSON ideally using the Tokens Studio plugin.
 2. Place the JSON file renamed at `style.json` in the root of this project.
 3. From this directory, run `./generateStyles.sh`
-4. `StyleSheet.ts` and `useResponsiveStyles` will be generated in the `/export` dir of this project.
+4. `StyleSheet.ts` and `useResponsiveStyles.ts` will be generated in the `/export` dir of this project.
 
 ## Under the hood
 
