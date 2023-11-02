@@ -19,7 +19,7 @@ See `style.json` for an example file structure.
 
 1. Export your Figma file as JSON, ideally using the Tokens Studio plugin.
 2. Place the JSON file renamed as `style.json` in the root of this project.
-3. From this directory, run `./generateStyles.sh`
+3. In a terminal window, from the root directory run `./generateStyles.sh`
 4. `StyleSheet.ts` and `useResponsiveStyles.ts` will be generated in the `/export` dir of this project.
 
 ## Take note!
